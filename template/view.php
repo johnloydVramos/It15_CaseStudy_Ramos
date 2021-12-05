@@ -16,7 +16,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>SB Admin 2 - Dashboard</title>
+    <title>LIS Admin View Students</title>
 
     <!-- Custom fonts for this template-->
     <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
@@ -40,9 +40,9 @@
             <!-- Sidebar - Brand -->
             <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
                 <div class="sidebar-brand-icon rotate-n-15">
-                    <i class="fas fa-laugh-wink"></i>
+                    <i class="fas fa-school"></i>
                 </div>
-                <div class="sidebar-brand-text mx-3">SB Admin <sup>2</sup></div>
+                <div class="sidebar-brand-text mx-3">Laguna International School</div>
             </a>
 
             <!-- Divider -->
@@ -58,19 +58,19 @@
             <li class="nav-item active">
                 <a class="nav-link" href="search.php">
                     <i class="fas fa-fw fa-tachometer-alt"></i>
-                    <span>Navigate Users</span></a>
+                    <span>Navigate Students</span></a>
             </li>
 
             <li class="nav-item active">
                 <a class="nav-link" href="blank.php">
                     <i class="fas fa-fw fa-tachometer-alt"></i>
-                    <span>Add User</span></a>
+                    <span>Add Students</span></a>
             </li>
 
             <li class="nav-item active">
                 <a class="nav-link" href="view.php">
                     <i class="fas fa-fw fa-tachometer-alt"></i>
-                    <span>View Users</span></a>
+                    <span>View Students</span></a>
             </li>
 
             <!-- Divider -->
@@ -333,7 +333,7 @@
 
                     <!-- Page Heading -->
                     <div class="d-sm-flex align-items-center justify-content-between mb-4">
-                        <h1 class="h3 mb-0 text-gray-800">Dashboard</h1>
+                        <h1 class="h3 mb-0 text-gray-800">Lists of Students</h1>
                         <a href="#" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"><i
                                 class="fas fa-download fa-sm text-white-50"></i> Generate Report</a>
                     </div>
@@ -378,7 +378,7 @@ $result = $con->query($query);
             echo "<td>".$res['email']."</td>";  
             echo "<td>".$res['addre']."</td>";  
             echo "<td>".$res['regs_date']."</td>";    
-            echo "<td><a href=\"update.php?id=$res[id]\"class=\"btn btn-success\">Edit</a> | <a href=\"delete.php?id=$res[id]\" class=\"btn btn-danger\"onClick=\"return confirm('Are you sure you want to delete?')\">Delete</a></td>";       
+            echo "<td><a href=\"update.php?id=$res[id]\"class=\"btn btn-success\">Edit</a> | <a href=\"delete.php?id=$res[id]\" class=\"btn btn-danger\"onClick=\"return confirm('Are you sure you want to Remove the Student?')\">Delete</a></td>";       
         }
         ?>
         

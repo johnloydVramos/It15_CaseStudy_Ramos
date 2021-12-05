@@ -40,9 +40,9 @@
             <!-- Sidebar - Brand -->
             <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
                 <div class="sidebar-brand-icon rotate-n-15">
-                    <i class="fas fa-laugh-wink"></i>
+                    <i class="fas fa-school"></i>
                 </div>
-                <div class="sidebar-brand-text mx-3">SB Admin <sup>2</sup></div>
+                <div class="sidebar-brand-text mx-3">Laguna International School</div>
             </a>
 
             <!-- Divider -->
@@ -58,7 +58,7 @@
             <li class="nav-item active">
                 <a class="nav-link" href="search.php">
                     <i class="fas fa-fw fa-tachometer-alt"></i>
-                    <span>Navigate User</span></a>
+                    <span>Navigate Student</span></a>
             </li>
 
             <li class="nav-item active">
@@ -331,7 +331,7 @@
 
                     <!-- Page Heading -->
                     <div class="d-sm-flex align-items-center justify-content-between mb-4">
-                        <h1 class="h3 mb-0 text-gray-800">Add User Data</h1>
+                        <h1 class="h3 mb-0 text-gray-800">Add Student Data</h1>
                         <a href="#" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"><i
                                 class="fas fa-download fa-sm text-white-50"></i> Generate Report</a>
                     </div>

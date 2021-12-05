@@ -83,7 +83,7 @@ a {
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Update User Data</title>
+    <title>Update Student's Data</title>
 
     <!-- Custom fonts for this template-->
     <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
@@ -107,9 +107,9 @@ a {
             <!-- Sidebar - Brand -->
             <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
                 <div class="sidebar-brand-icon rotate-n-15">
-                    <i class="fas fa-laugh-wink"></i>
+                    <i class="fas fa-school"></i>
                 </div>
-                <div class="sidebar-brand-text mx-3">SB Admin <sup>2</sup></div>
+                <div class="sidebar-brand-text mx-3">Laguna International School</div>
             </a>
 
             <!-- Divider -->
@@ -123,15 +123,21 @@ a {
             </li>
 
             <li class="nav-item active">
+                <a class="nav-link" href="search.php">
+                    <i class="fas fa-fw fa-tachometer-alt"></i>
+                    <span>Navigate Students</span></a>
+            </li>
+
+            <li class="nav-item active">
                 <a class="nav-link" href="blank.php">
                     <i class="fas fa-fw fa-tachometer-alt"></i>
-                    <span>Add Users</span></a>
+                    <span>Add Students</span></a>
             </li>
 
             <li class="nav-item active">
                 <a class="nav-link" href="view.php">
                     <i class="fas fa-fw fa-tachometer-alt"></i>
-                    <span>View Users</span></a>
+                    <span>View Students</span></a>
             </li>
 
             <!-- Divider -->
@@ -393,7 +399,7 @@ a {
 
                     <!-- Page Heading -->
                     <div class="d-sm-flex align-items-center justify-content-between mb-4">
-                        <h1 class="h3 mb-0 text-gray-800">Update User Data</h1>
+                        <h1 class="h3 mb-0 text-gray-800">Update Student's Data</h1>
                         <a href="#" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"><i
                                 class="fas fa-download fa-sm text-white-50"></i> Generate Report</a>
                     </div>

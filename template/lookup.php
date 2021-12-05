@@ -16,7 +16,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>SB Admin 2 - Dashboard</title>
+    <title>LIS Results Tab</title>
 
     <!-- Custom fonts for this template-->
     <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
@@ -40,9 +40,9 @@
             <!-- Sidebar - Brand -->
             <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
                 <div class="sidebar-brand-icon rotate-n-15">
-                    <i class="fas fa-laugh-wink"></i>
+                    <i class="fas fa-school"></i>
                 </div>
-                <div class="sidebar-brand-text mx-3">SB Admin <sup>2</sup></div>
+                <div class="sidebar-brand-text mx-3">Laguna International School</div>
             </a>
 
             <!-- Divider -->
@@ -58,19 +58,19 @@
             <li class="nav-item active">
                 <a class="nav-link" href="search.php">
                     <i class="fas fa-fw fa-tachometer-alt"></i>
-                    <span>Navigate Users</span></a>
+                    <span>Navigate Students</span></a>
             </li>
 
             <li class="nav-item active">
                 <a class="nav-link" href="blank.php">
                     <i class="fas fa-fw fa-tachometer-alt"></i>
-                    <span>Add User</span></a>
+                    <span>Add Students</span></a>
             </li>
 
             <li class="nav-item active">
                 <a class="nav-link" href="view.php">
                     <i class="fas fa-fw fa-tachometer-alt"></i>
-                    <span>View Users</span></a>
+                    <span>View Students</span></a>
             </li>
 
             <!-- Divider -->
@@ -344,7 +344,7 @@
                 echo "No Records Found...";
             }
         }
-        echo "<br/><a href='blank.php' class='btn btn-primary'>Add User</a>";
+        echo "<br/><a href='blank.php' class='btn btn-primary'>Add Students</a>";
 ?>
 
               
